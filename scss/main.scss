@@ -1,0 +1,678 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+img {
+   width: 100%;
+
+}
+body{
+
+}
+#app-container{
+   max-width: 960px;
+   margin: auto;
+   padding: 0;
+}
+.search-container{
+   width: 100%;
+   margin: 0;
+   height: 300px;
+   padding-top: 80px;
+   padding-left: 20px;
+   margin-bottom: 0;
+   background: url('../images/images/roomies-eating-together-bg.jpg') center center no-repeat;
+   background-size: cover;
+   position: relative;
+      img{
+         width: 10%;
+         position: absolute;
+         top: 2%;
+         left: 2%;
+      }
+      i{
+         color: white;
+         position: absolute;
+         top: 2%;
+         left: 90%;
+      }
+      h4{
+         color: white;
+      }
+
+      p{
+         font-size: 15px;
+         color: white;
+      }
+
+}
+.search-window{
+   width: 10%;
+   padding: 20px;
+   margin:  0;
+   font-size: 12px;
+}
+.search-button{
+   margin: 0;
+   padding: 0;
+   width: 20%;
+   height: 30px;
+   background-color: #7AC0CE;
+}
+.rent-container{
+   padding: 30px;
+   height: 100px;
+   background: url('../images/images/buildings-yellow-green.svg') center center no-repeat;
+   background-size: 30%;
+   background-color: #7AC0CE;
+   background-position: right bottom;
+      h3{
+
+         color: white;
+      }
+      p{
+         font-size: 11px;
+         color: white;
+      }
+}
+.room-container{
+   margin: 0;
+   padding: 0;
+   background-color: white;
+      h1{
+         color: #7AC0CE;
+      }
+      p{
+         margin-left: 25px;
+         font-size: 12px;
+      }
+}
+.rent-button{
+   background-color: #35414E;
+}
+.register{display: none;}
+.login{display: none;}
+.profile.container{
+   width: 100%;
+   padding: 20px;
+   margin-bottom: 0;
+   padding-left: 50px;
+   hr{
+      border: 4px solid grey;
+   }
+}
+.profile-container2{
+   visibility: hidden collapse;
+
+}
+
+.create-profile{
+   img{
+   width: 30%;
+}
+}
+.match-smarter{
+   img{
+   width: 30%;
+}
+}
+.move-in{
+   img{
+   width: 30%;
+}
+}
+
+.email-container{
+   padding: 30px;
+   margin: 0;
+   background: url('../images/images/happy-roomies-bg.jpg')center center no-repeat;
+   background-size: cover;
+      h4{
+      color: white;
+      }
+      p{
+         font-size: 12px;
+         color: white;
+      }
+   }
+.email-bar{
+
+   padding: 10px;
+   width: 100%;
+   font-size: 12px;
+}
+.email-button{
+   margin: 0;
+   padding: 0;
+   margin-left: 200px;
+   width: 40%;
+   background-color: grey;
+   position: relative;
+}
+.send-arrow{
+   position: absolute;
+   top: 35%;
+   left: 55%;
+}
+.facebook-icon{
+   padding: 5px;
+   background: #7AC0CE;
+   border-radius: 50%;
+}
+.google-icon{
+   padding: 5px;
+   background: #7AC0CE;
+   border-radius: 50%;
+}
+.twitter-icon{
+   padding: 5px;
+   background: #7AC0CE;
+   border-radius: 50%;
+}
+.success-container{
+   width: 100%;
+   margin: 0;
+   margin-bottom: 0;
+   padding: 30px;
+   h1{
+      font: 15px;
+      color: #7AC0CE;
+   }
+   p{
+      font-size: 12px;
+   }
+}
+.success-profile-one{
+   width: 100%;
+      img{
+         width: 30%;
+         border-radius: 20px;
+      }
+      h3{
+         color: #7AC0CE;
+      }
+      p{
+         margin-left: 20px;
+         font-size: 12px;
+      }
+}
+.success-profile-two{
+   width: 100%;
+      img{
+         width: 30%;
+         border-radius: 20px;
+      }
+      h3{
+         color: #7AC0CE;
+      }
+      p{
+         margin-left: 20px;
+         font-size: 12px;
+      }
+
+}
+.success-profile-three{
+   width: 100%;
+      img{
+         width: 30%;
+         border-radius: 20px;
+      }
+      h3{
+         color: #7AC0CE;
+      }
+      p{
+         margin-left: 20px;
+         font-size: 12px;
+      }
+}
+.feature-container{
+   width: 100%;
+   color: darkgrey;
+   background-color: #F7C760;
+   margin: 0;
+
+}
+
+.feature-profile-one{
+   width: 55%;
+   position: relative;
+      h6{
+         text-align: left;
+         padding-left: 10px;
+      }
+      p{
+         text-align: left;
+         padding-left: 10px;
+      }
+   }
+   .feature-profile-pic1{
+      width: 15%;
+      border-radius: 25px;
+      position: absolute;
+      top: 67%;
+      left: 80%;
+   }
+
+.feature-profile-two{
+   width: 55%;
+   position: relative;
+      h6{
+      text-align: left;
+      padding-left: 10px;
+     }
+      p{
+      text-align: left;
+      padding-left: 10px;
+     }
+   }
+   .feature-profile-pic2{
+      width: 15%;
+      border-radius: 25px;
+      position: absolute;
+      top: 67%;
+      left: 80%;
+   }
+
+
+.feature-profile-three{
+   width: 55%;
+   position: relative;
+      h6{
+      text-align: left;
+      padding-left: 10px;
+   }
+      p{
+      text-align: left;
+      padding-left: 10px;
+   }
+}
+   .feature-profile-pic3{
+      width: 15%;
+      border-radius: 25px;
+      position: absolute;
+      top: 67%;
+      left: 80%;
+   }
+
+.thumbnail{
+   margin-left: 110px;
+}
+.room-button{
+   background-color: #35414E;
+}
+.footer-container1{
+   background-color: black;
+   width: 100%;
+   display: inline-block;
+   color: lightgrey;
+   position: relative;
+   hr{
+      margin-top: 50px;
+   }
+}
+.how-it-works{
+   width: 24%;
+   display: inline-block;
+   margin-top: auto;
+   margin-left: 20px;
+      p{
+         font-size: 14px;
+      }
+
+}
+.faq{
+   width: 20%;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: auto;
+      p{
+         font-size: 14px;
+      }
+
+}
+.blog{
+   width: 20%;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: auto;
+      p{
+         font-size: 14px;
+      }
+}
+.imprint{
+   width: 24%;
+   display: inline-block;
+   vertical-align: top;
+   margin-top: auto;
+   margin-right: 20px;
+      p{
+         font-size: 14px;
+      }
+}
+.google-play{
+      img{
+         margin-left: 10px;
+         width:20%;
+      }
+}
+.copyright{
+   display: inline-block;
+   color: lightgrey;
+}
+.roomme{
+   display: inline-block;
+      p{
+         vertical-align: top;
+         font-size: 12px;
+      }
+}
+.footer-container2{
+   display: none;
+
+}
+
+@media screen and (min-width: 768px){
+   .rent-container{
+      height: 350px;
+   }
+
+   .email-container{
+      position: relative;
+      .email-bar{
+         margin-left: 350px;
+      }
+      .email-button{
+         padding: 0;
+         margin-left: 350px;
+      }
+   }
+      .or{
+         p{
+            font-size: 16px;
+            position: absolute;
+            top: 70%;
+            left: 37%;
+   }
+}
+.twitter-icon{
+   background: #7AC0CE;
+   border-radius: 50%;
+   position: absolute;
+   top: 70%;
+   left: 20%;
+}
+.facebook-icon{
+   background: #7AC0CE;
+   border-radius: 50%;
+   position: absolute;
+   top: 70%;
+   left: 25%;
+}
+.google-icon{
+   background: #7AC0CE;
+   border-radius: 50%;
+   position: absolute;
+   top: 70%;
+   left: 30%;
+}
+
+      .twitter-icon2{
+         color: white;
+         position: absolute;
+         top: 65%;
+         left: 80%;
+}
+      .facebook-icon2{
+         color: white;
+         position: absolute;
+         top: 65%;
+         left: 85%;
+      }
+      .google-icon2{
+         color: white;
+         position: absolute;
+         top: 65%;
+         left: 90%;
+      }
+
+      .emailbar{
+         margin-left: 100px;
+      }
+
+
+
+   .profile-container{
+      display: none;
+      }
+   .profile-container2{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 100px;
+      padding-top: 100px;
+      }
+   .create-profile-img{
+         width: 35%;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         display: inline-block;
+         }
+   .profile2{
+         width: 60%;
+         padding-bottom: 20px;
+         display: inline-block;
+         vertical-align: top;
+         }
+   .match-smarter-img{
+         width: 35%;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         display: inline-block;
+         }
+   .match1{
+         width: 60%;
+         padding-bottom: 20px;
+         display: inline-block;
+         vertical-align: top;
+         }
+   .move-in-img{
+         width: 35%;
+         padding-top: 20px;
+         padding-bottom: 20px;
+         display: inline-block;
+         }
+   .move1{
+         width: 60%;
+         padding-bottom: 20px;
+         display: inline-block;
+         vertical-align: top;
+         }
+
+   .search-container{
+         i{
+            display: none;
+            padding: 200px;
+         }
+      }
+   .register{
+      display: block;
+            p{
+            color: white;
+            position: absolute;
+            top: 5%;
+            left: 85%;
+            }
+         }
+   .login{
+      display: block;
+            p{
+            color: white;
+            position: absolute;
+            top: 5%;
+            left: 93%;
+            }
+         }
+
+   .success-profile-one{
+         img{
+            margin: 0 0 0 50;
+         }
+   }
+   .success-profile-two{
+         img{
+            margin: 0 0 0 50;
+         }
+   }
+   .success-profile-three{
+         img{
+            margin: 0 0 0 50;
+         }
+   }
+
+   .feature-profile-one{
+         width: 20%;
+
+         .feature-profile-pic1{
+            position: absolute;
+               top: 57%;
+               left: 80%;
+         }
+         }
+   .feature-profile-two{
+         width: 20%;
+         .feature-profile-pic2{
+            position: absolute;
+               top: 57%;
+               left: 80%;
+         }
+         }
+   .feature-profile-three{
+         width: 20%;
+            .feature-profile-pic3{
+               top: 55%;
+               left: 80%;
+            }
+         }
+   .footer-container1{
+      display: none;
+      }
+   .footer-container2{
+      width: 100%;
+      padding: 0;
+      display: inline-block;
+      background-color: #35414E;
+      position: relative;
+}
+   .left-chamber{
+      width: 60%;
+      margin: 0;
+
+
+}
+   .roommie1{
+        img{
+           width: 10%;
+           position: absolute;
+           top: 5%;
+           left: 3%;
+       }
+   }
+   .copyright2{
+      display: inline-block;
+      color: lightgrey;
+      position: absolute;
+      top: 85%;
+      left: 2%;
+   }
+   .copyright2015{
+      display: inline-block;
+         p{
+            color: lightgrey;
+            font-size: 12px;
+
+            position: absolute;
+            top: 85%;
+            left: 4%;
+         }
+   }
+   .middle-chamber{
+      width: 50%;
+      display: inline-block;
+      margin-left: 100px;
+      margin-right: 50px;
+      border-left: 2px solid lightgrey;
+      border-right: 2px solid lightgrey;
+
+
+
+
+   }
+   .quicklinks{
+      width: 25%;
+
+      color: lightgrey;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 10px;
+         ul{
+      list-style-type: none;
+            p{
+               font-size: 10px;
+            }
+      }
+   }
+   .rooms-for-rent{
+      width: 40%;
+      color: lightgrey;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 20px;
+      font-size: 10px;
+         ul{
+            p{
+               font-size: 10px;
+            }
+            list-style-type: none;
+      }
+      }
+   .right-chamber{
+      margin: 0;
+      display: inline-block;
+
+
+   }
+   .download-the-app{
+      width: 65%;
+      margin-top: 20px;
+      height: 15%;
+      margin-left: 20px;
+      display: inline-block;
+
+      p{
+         color: white;
+         font-size: 10px;
+      }
+   }
+   .follow-us{
+      width: 65%;
+      height: 7%;
+      margin-bottom: 60px;
+      margin-right: 20px;
+      display: inline-block;
+
+      p{
+      color: white;
+      font-size: 10px;
+   }
+   }
+   .google-play2{
+      color: white;
+      border-radius: 20px;
+      width: 10%;
+      position: absolute;
+      top: 30%;
+      left: 78%;
+   }
+
+
+
+
+}
